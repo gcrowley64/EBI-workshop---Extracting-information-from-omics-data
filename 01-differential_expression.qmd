@@ -45,7 +45,7 @@ When you try to push your changes RStudio will probably prompt you for your GitH
 library(gitcreds)
 library(usethis)
 # Give Git your name and email to sign your commits
-usethis::use_git_config(user.name = "Jane Doe", user.email = "jane@example.org")
+usethis::use_git_config(user.name = "gcrowley64", user.email = "gerard.crowley.18@ucl.ac.uk")
 # Make a pat token to be able to push to github recommended setting are "user" 
 # "repo" and "workflow", which should be enabled by default
 usethis::create_github_token()
